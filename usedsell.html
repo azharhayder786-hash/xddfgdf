@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+<link rel="stylesheet" href="asghar.css">
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  
+  <a href="Mobile Phones.html">Mobile phones</a>
+   <select name="mobiles">
+    <option value="iphones">Iphones</option>
+    <option value="samsungs">Samsungs</option>
+    <option value="xiaomis">Xiaomis</option>
+    <option value="qmobiles">Qmobiles</option>
+  </select>
+  <a href="#">Bike</a>
+  <a href="#">Console</a>
+  <a href="#">Laptop</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Open Sidebar <h1>Welcome to Used Sell</h1></button>
+  </div><h2>iphones</h2><div class="img-container"><div class="div2"><img class="img2" src="./pakistan.jpeg" alt="" >
+ <h2 class="h2">Laptops</h2> <img class="img1" src="./pakistan1.jpeg" alt="">
+ <h2 class="h3">bikes</h2> <img class="img1" src="./pakistan2.jpeg" alt="">
+  <img class="img1" src="./pakistan3.jpeg" alt="">
+  </div>
+  <marquee class="pak4" behavior="scroll" direction="left" scrollamount="30" scrolldelay="100" scroll>Welcome to Used Sell</marquee></div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html> 
+  
